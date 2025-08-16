@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamin Kumar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">BK</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Hello, I'm</span>
+            <span class="title-name">Benjamin Kumar</span>
+          </h1>
+          <p class="hero-subtitle">Software Engineer specializing in Computer Vision, Machine Learning & Systems Programming</p>
+          <div class="hero-description">
+            <p>Passionate about building intelligent systems and pushing the boundaries of what's possible with code.</p>
+          </div>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-elements">
+            <div class="floating-icon" data-icon="💻"></div>
+            <div class="floating-icon" data-icon="🤖"></div>
+            <div class="floating-icon" data-icon="🔬"></div>
+            <div class="floating-icon" data-icon="🎮"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            I'm a Computer Science student at Texas A&M University with a passion for artificial intelligence, 
+            computer vision, and building robust systems. Currently pursuing my BS in Computer Science with a 
+            minor in Mathematics, I maintain a 3.93 GPA as a Craig and Galen Brown Engineering Honors Student.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Texas A&M University</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-star"></i>
+              <span>3.93 GPA</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-trophy"></i>
+              <span>Engineering Honors</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Google | Associate Software Development Intern</h3>
+              <span class="timeline-date">May 2025 – August 2025</span>
+              <span class="timeline-location">New York, NY</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Optimized ML pipeline for Google Maps category classification, achieving 10× runtime reduction</li>
+              <li>Designed complex SQL queries for terabyte-scale datasets, ensuring high-quality inputs for models</li>
+              <li>Engineered C++ algorithms for preprocessing signals for ML models</li>
+              <li>Migrated inference pipelines to modern Python-based solutions, improving maintainability</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Texas A&M University | Undergraduate Python Teaching Assistant</h3>
+              <span class="timeline-date">August 2024 – Present</span>
+              <span class="timeline-location">College Station, TX</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Delivered Python instruction to 100+ first-year engineering students</li>
+              <li>Facilitated weekly office hours for 30+ students, providing targeted debugging help</li>
+              <li>Graded quizzes and exams to assess student comprehension</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Aggie Robotics | Software Developer</h3>
+              <span class="timeline-date">August 2023 – Present</span>
+              <span class="timeline-location">College Station, TX</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Developed Python-based computer vision algorithms for autonomous robot localization</li>
+              <li>Trained ML models to detect and classify environmental objects for navigation</li>
+              <li>Implemented C++ motion tracking algorithms for odometer-based movement accuracy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Texas A&M Game Developers | Game Developer</h3>
+              <span class="timeline-date">August 2023 – Present</span>
+              <span class="timeline-location">College Station, TX</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Collaborated on Unity-based video games in C# with a 5-member team</li>
+              <li>Developed HOA: Stealth game with adaptive enemy AI</li>
+              <li>Developed Mystic Mayhem: Action game with mouse-drawn spell-casting mechanics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-image">
+            <div class="project-icon">
+              <i class="fas fa-mouse"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              <a href="https://github.com/BenKTAMU/computer-vision-mouse" target="_blank">AirMouse</a>
+            </h3>
+            <p class="project-description">
+              Real-time hand-tracking system using OpenCV + MediaPipe to control the mouse with <50ms latency.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">MediaPipe</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/BenKTAMU/computer-vision-mouse" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image">
+            <div class="project-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              <a href="https://github.com/BenKTAMU/LifeAsSTEM" target="_blank">LifeAsSTEM</a>
+            </h3>
+            <p class="project-description">
+              BitLife-inspired simulation game helping students explore STEM fields. Built with Django backend and JavaScript frontend.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Django</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">SQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/BenKTAMU/LifeAsSTEM" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <div class="project-icon">
+              <i class="fas fa-user-secret"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">
+              <a href="https://github.com/BenKTAMU/GameJamSpring2025" target="_blank">HOA</a>
+            </h3>
+            <p class="project-description">
+              Stealth game in Unity (C#) with adaptive enemy AI that responds to player behavior.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Unity</span>
+              <span class="tech-tag">C#</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/BenKTAMU/GameJamSpring2025" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category" data-aos="fade-up">
+          <div class="skill-header">
+            <i class="fas fa-code"></i>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <span class="skill-name">C++</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-hashtag"></i>
+              </div>
+              <span class="skill-name">C#</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              <span class="skill-name">Java</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <span class="skill-name">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-header">
+            <i class="fas fa-tools"></i>
+            <h3>Frameworks & Libraries</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-eye"></i>
+              </div>
+              <span class="skill-name">OpenCV</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <span class="skill-name">TensorFlow</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <span class="skill-name">Django</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-unity"></i>
+              </div>
+              <span class="skill-name">Unity</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-wind"></i>
+              </div>
+              <span class="skill-name">Tailwind</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-cube"></i>
+              </div>
+              <span class="skill-name">NumPy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-header">
+            <i class="fas fa-cogs"></i>
+            <h3>Tools & Technologies</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <span class="skill-name">Git</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <span class="skill-name">GitHub</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-linux"></i>
+              </div>
+              <span class="skill-name">Linux</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-code-branch"></i>
+              </div>
+              <span class="skill-name">Visual Studio</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <span class="skill-name">Microsoft 365</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <span class="skill-name">Terminal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item" data-aos="fade-right">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <a href="mailto:benjaminvkumar@gmail.com">benjaminvkumar@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item" data-aos="fade-right" data-aos-delay="100">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-details">
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/benjaminvkumar/" target="_blank">benjaminvkumar</a>
+            </div>
+          </div>
+          <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <h3>GitHub</h3>
+              <a href="https://github.com/BenKTAMU" target="_blank">BenKTAMU</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left">
+          <form class="form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-text">BK</span>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/BenKTAMU" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/benjaminvkumar/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:benjaminvkumar@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Designed with ❤️ by Benjamin Kumar</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
